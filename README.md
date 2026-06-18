@@ -10,10 +10,12 @@ This page serves as a temporary emergency website while the main ChatDNA applica
 
 - Clean, modern responsive design
 - Information about ChatDNA capabilities
+- Publications section with research papers
 - "Coming Soon" placeholder for Browse Cases functionality
 - Fully static - can be hosted on GitHub Pages
 - No backend dependencies
 - No company or patient data
+- Research and educational use disclaimer
 
 ## Hosting on GitHub Pages
 
@@ -38,6 +40,13 @@ This page serves as a temporary emergency website while the main ChatDNA applica
 - `script.js` - Interactive features and animations
 - `README.md` - This file
 
+## Sections
+
+- **Hero**: Main banner with ChatDNA branding
+- **About**: Platform description emphasizing research and educational use
+- **Publications**: Key research papers and publications
+- **Contact**: Email contact information
+
 ## Customization
 
 ### Changing Colors
@@ -52,15 +61,12 @@ Edit the CSS variables in `style.css`:
 }
 ```
 
-### Adding Content
+### Contact Information
 
-Edit `index.html` sections:
-- Hero section: Main banner
-- About section: Platform description
-- Features section: Key capabilities
-- Info section: How it works
-- Use Cases section: Applications
-- Contact section: Get in touch
+Update the email in the Contact section of `index.html`:
+```html
+<a href="mailto:chatdna@illumina.com">chatdna@illumina.com</a>
+```
 
 ### Enabling Browse Cases
 
@@ -84,7 +90,7 @@ Internal use only. Not for distribution.
 ## Notes
 
 - This is a placeholder landing page
+- Research and educational purposes only
 - No actual functionality for browsing cases
 - No backend integration
 - No data storage or processing
-- For informational purposes only
